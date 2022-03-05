@@ -17,27 +17,7 @@
               <p>Akan names are derived from Ghanian culture. This web application takes user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
         
             </div>
-            <div class="names1">
-              <h3>MALE NAMES</h3>
-              <P>Sunday- Kwasi</P>
-              <P>Monday- Kwadwo</P>
-              <P>Tuesday- Kwabena</P>
-              <P>Wednesday- Kwaku</P>
-              <P>Thursday-  Yaw</P>
-              <P>Friday- Kofi</P>
-              <P>Saturday- Kwame</P>
-            </div>
-
-            <div classe="names2">
-              <h3>FEMALE NAMES</h3>
-              <P>Sunday- Akosua</P>
-              <P>Monday- Adwoa</P>
-              <P>Tuesday- Abenaa</P>
-              <P>Wednesday- Akua</P>
-              <P>Thursday-  Yaa</P>
-              <P>Friday- Afua</P>
-              <P>Saturday- Ama</P>
-            </div>
+            
       
     <form>
          <label for="birthday">Day:</label>
@@ -46,9 +26,33 @@
          <input type="number" min="1" max="31">
          <label for="birthday">Year:</label>
          <input type="number" min="1930" max="2022">
-            <button type="submit" class="btn btn-primary">Submit</button>
+         <label>GENDER</label>
+         <input type="radio" name="gender" id="firstgender" value="female"> Female
+         <input type="radio" name="gender" id="secondgender" value="male"> Male<br><br>
+        <input type="submit" value="Submit" class="btn btn-success btn-lg" onclick="calculate()">
+        
           </form>
-            
+          <div class="names1">
+            <h3>MALE NAMES</h3>
+            <P>Sunday- Kwasi</P>
+            <P>Monday- Kwadwo</P>
+            <P>Tuesday- Kwabena</P>
+            <P>Wednesday- Kwaku</P>
+            <P>Thursday-  Yaw</P>
+            <P>Friday- Kofi</P>
+            <P>Saturday- Kwame</P>
+          </div>
+
+          <div classe="names2">
+            <h3>FEMALE NAMES</h3>
+            <P>Sunday- Akosua</P>
+            <P>Monday- Adwoa</P>
+            <P>Tuesday- Abenaa</P>
+            <P>Wednesday- Akua</P>
+            <P>Thursday-  Yaa</P>
+            <P>Friday- Afua</P>
+            <P>Saturday- Ama</P>
+          </div>    
       
       
     <!-- Optional JavaScript -->
