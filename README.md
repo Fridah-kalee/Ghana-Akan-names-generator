@@ -4,8 +4,10 @@
 *Description
 *Installation Requirement
 *Technology Used
-*Licence
+*BDD
 *Authors Info
+*Contact information
+*License
 
 ## Description
 This is a clone website for Ghana Akan Names. It is part of the projects i made during Moringa school prep program it demonstrates the use of bootstrap, Javascript and jQuery in making a website.
