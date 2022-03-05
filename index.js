@@ -11,5 +11,5 @@ function check(){
     var yy=parseInt(year.substr(2.4));
     var yy=parseInt(year.substr(0.2));
 
-    var dayWeek=Maths.abs(parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7))
+    var dayWeek=(parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7))
 }
