@@ -4,3 +4,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.title{
+    font-size: 25px;
+    color: red;
+    text-align: left;
+    font-family: Verdana;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+input[type-text]{
+    width: 140px;
+    margin: auto;
+    min-height: 50px;
+    border-radius: 2px;
+    border: 2px solid red;
+}
