@@ -31,11 +31,11 @@ This is a clone website for Ghana Akan Names. It is part of the projects i made 
 *JavaScript
 
 ## Behaviour Driven Development
-      Behaviour                    Input                         Output
-
-
-
-
+*Input day of birth.
+*Input month of birth.
+*Input year of birth.
+*Select gender.
+*Output Akan name.
 
 ## Author
 Fridah-kalee

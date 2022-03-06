@@ -1,9 +1,7 @@
 var maleNames = [ 'Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi',  'Kwame' ];
 var femaleNames = ['Akosua',  'Adwoa', 'Abenaa', 'Akua',  'Yaa', 'Afua', 'Ama'];
+let dayofweek =["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-//if date and month entered is valid 
-//if either of them is invalid
-//alert to enter a valid one
 
 function check(){
     var gender = document.getElementById("gender").value;
