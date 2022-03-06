@@ -12,48 +12,55 @@
 </head>
 
   <body>
-      <div class="container">
-          <div class="jumbotron text-center">
-              <h1>Akan Naming System Generator</h1>
-              <p>Akan names are derived from Ghanian culture. This web application takes user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
-    
-            </div>
-            
+    <div class="form">
+      <form action="">
+          <div class="parent">
+              <p>
+                  Akan names are derived from Ghanian culture. Frequently in Ghana, 
+                  children are given their first name as a 'day name' 
+                  which corresponds to the day in the week they were born.
+              </p>
       
-    <form>
-         <label for="birthday">Day:</label>
-         <input type="number" min="1" max="31">
-         <label for="birthday">Month:</label>
-         <input type="number" min="1" max="31">
-         <label for="birthday">Year:</label>
-         <input type="number" min="0" max="2022">
-         <label>GENDER</label>
-         <input type="radio" name="gender" id="firstgender" value="female"> Female
-         <input type="radio" name="gender" id="secondgender" value="male"> Male<br><br>
-        <input type="submit" value="Submit" class="btn btn-success btn-lg" onclick="calculate()">
-        
+              <label class="gen" ><b>Gender</b></label>
+      
+                  <select  id="gender">
+      
+                  <option value="male">male</option>
+      
+                  <option  value="female">female</option>
+                  </select><br>
+      
+                  <br>
+      
+              <label>day:</label>
+      
+          <input type="number" id="day" min="1" max="31">
+      
+          <br>
+      
+          <br>
+      
+          <label>month:</label>
+      
+          <input type="number" id="month" min="1" max="12" jrequired>
+      
+             <br>
+      
+             <br>
+      
+          <label >year:</label>
+      
+          <input type="number" id="year">
+      
+               <br>
+      
+               <br>
+      
+          <input type="submit" id="button" value="submit" onclick="check()">
           </form>
-          <div class="names1">
-            <h3>MALE NAMES</h3>
-            <P>Sunday- Kwasi</P>
-            <P>Monday- Kwadwo</P>
-            <P>Tuesday- Kwabena</P>
-            <P>Wednesday- Kwaku</P>
-            <P>Thursday-  Yaw</P>
-            <P>Friday- Kofi</P>
-            <P>Saturday- Kwame</P>
           </div>
-
-          <div classe="names2">
-            <h3>FEMALE NAMES</h3>
-            <P>Sunday- Akosua</P>
-            <P>Monday- Adwoa</P>
-            <P>Tuesday- Abenaa</P>
-            <P>Wednesday- Akua</P>
-            <P>Thursday-  Yaa</P>
-            <P>Friday- Afua</P>
-            <P>Saturday- Ama</P>
-          </div>    
+     </div>
+          
       
       
     <!-- Optional JavaScript -->

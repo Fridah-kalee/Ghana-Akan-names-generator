@@ -1,5 +1,5 @@
 # Ghana-Akan-names-generator
-### BY Fridah Kalee ,6/03/2022
+### By Fridah Kalee ,6/03/2022
 ## Table of Content
 *Description
 *Installation Requirement
