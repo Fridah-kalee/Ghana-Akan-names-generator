@@ -10,7 +10,7 @@
 *License
 
 ## Description
-This is a clone website for Ghana Akan Names. It is part of the projects i made during Moringa school prep program it demonstrates the use of bootstrap, Javascript and jQuery in making a website.
+It is a description of a web application project which defines a ghanian name for a user according to the day he/she was born (Akan Names).
 
 ## Project Setup Instructions
 *Open Terminal {Ctrl+Alt+T}
