@@ -1,14 +1,12 @@
 body{
-    background-color: wheat;
+    background-image: url("https://cdn.shopify.com/s/files/1/0073/2562/products/Africa-Pendant-identity-beads_orijin_culture-2_c729adb7-6e25-451c-a9b3-48e6e8085d92_800x.jpg?v=1613219075");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: Verdana;
+    font-size: 25px;
+    background-position: center;
 }
 *{
     text-align: center;
-}
-form{
-    
 }
