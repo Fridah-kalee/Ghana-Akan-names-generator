@@ -25,10 +25,10 @@ function check(){
        alert("enter valid year");
    }
    if (gender==="male"){
-       alert("your name is" + maleNames[birthDay]);
+       alert("your name is " + maleNames[birthDay]);
    }
    else if (gender==="female"){
-       alert("your name is" +femaleNames[birthDay]);
+       alert("your name is " +femaleNames[birthDay]);
    }
   }
 
